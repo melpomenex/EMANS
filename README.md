@@ -1,5 +1,7 @@
 # EMANS
 
+## Employee Management System
+
 #### A project I created to help me learn web development with Go as the backend.
 
 #### Table Of Contents
