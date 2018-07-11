@@ -1,0 +1,29 @@
+{{template "header"}}
+
+<form method="POST">
+    <label for="userName">username</label>
+    <input type="text" id="userName" name="first">
+    <br>
+    <label for="password">password</label>
+    <input type="text" id="password" name="last">
+    <br>
+    <input type="submit">
+</form>
+
+<br>
+
+<h1>username: {{.username}}</h1>
+<h1>password: {{.password}}</h1>
+
+{{template "footer"}}
+/* 
+
+<div class="login-page">
+  <div class="form">
+    <form class="login-form">
+      <input type="text" placeholder="username"/>
+      <input type="password" placeholder="password"/>
+      <button>login</button>
+    </form>
+  </div>
+</div> */
